@@ -2,7 +2,7 @@
 
 import defaultTheme from "tailwindcss/defaultTheme";
 
-export const content = ["./src/**/*.{html,js}"];
+export const content = ["./src/**/*.{html,js,jsx,ts,tsx}"];
 
 export const theme = {
   darkMode: "class",
@@ -21,14 +21,14 @@ export const theme = {
         500: "#683aff",
         600: "#5812ff",
         700: "#4801ff",
-        800: "#3b00d4", // Main color
+        800: "#3b00d4", // Ana renk
         900: "#3302b0",
       },
       secondary: {
         50: "#ecfeff",
         100: "#cefcff",
         200: "#a4f6fd",
-        300: "#43e8fa", // Main color
+        300: "#43e8fa", //Ana renk
         400: "#1fd9f1",
         500: "#03bcd7",
         600: "#0695b4",
@@ -42,6 +42,8 @@ export const theme = {
       light: "#F7F7F7", // Beyaz
     },
     width: {
+      40: "40%",
+      60: "60%",
       95: "95%",
     },
     height: {
@@ -49,6 +51,15 @@ export const theme = {
       900: "900px",
     },
     fontSize: {
+      10: "10px",
+      20: "20px",
+      30: "30px",
+      40: "40px",
+      50: "50px",
+      60: "60px",
+      70: "70px",
+      80: "80px",
+      90: "90px",
       100: "100px",
     },
   },

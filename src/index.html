@@ -13,8 +13,8 @@
   <body>
     <!-- Header -->
     <div class="relative flex justify-between w-95 mx-auto pt-6 items-center">
-      <img class="sm:h-1/6 md:w-80 lg:w-80 dark:hidden" src="./assets/logo-white.svg" alt="context root logo" />
-      <img class="sm:h-1/6 md:w-80 lg:w-80 hidden dark:block" src="./assets/Logo-dark.svg" alt="context root logo" />
+      <img class="sm:h-1/6 md:w-80 w-80 dark:hidden" src="./assets/logo-white.svg" alt="context root logo" />
+      <img class="sm:h-1/6 md:w-80 w-80 hidden dark:block" src="./assets/Logo-dark.svg" alt="context root logo" />
       <div class="text-primary-800s dark:text-secondary-300">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
           <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3.5 7.5h17M3.5 12h14m-14 4.5h17" />
@@ -33,12 +33,14 @@
     <div class="w-95 h-3200 relative mx-auto mt-20 flex">
       <!--Video-->
       <div class="w-full sticky md:sticky lg:sticky h-900 top-7">
-        <video class="sm:h-[600px] md:h-[700px] lg:h-[900px] h-full w-full object-cover rounded-3xl" src="./assets/video.mp4"></video>
+        <video
+          class="sm:h-[500px] md:h-[700px] lg:h-[900px] h-full w-full object-cover rounded-3xl"
+          src="./assets/video.mp4"></video>
       </div>
       <!--Stats 1-->
       <div class="absolute text-white top-[40px] left-[35px]">
         <h2 class="sm:text-6xl md:text-7xl lg:text-100">350+</h2>
-        <p class="sm:text-2xl md:text-3xl lg:text-3xl">Projects Completed</p>
+        <p class="sm:text-2xl md:text-3xl">Projects Completed</p>
       </div>
       <!--Stats 2-->
       <div class="absolute text-white top-[600px] right-[35px]">
@@ -48,31 +50,62 @@
       <!--Stats 3-->
       <div class="absolute text-white top-[1280px] left-[35px]">
         <h2 class="sm:text-6xl md:text-7xl lg:text-100">14 Years</h2>
-        <p class="sm:text-2xl md:text-3xl lg:text-3xl">of Experience</p>
+        <p class="sm:text-2xl md:text-3xl">of Experience</p>
       </div>
       <!--Stats 4-->
       <div class="absolute text-white top-[1920px] right-[35px]">
         <h2 class="sm:text-6xl md:text-7xl lg:text-100">%99,6</h2>
-        <p class="sm:text-2xl md:text-3xl lg:text-3xl">Positive Feedback</p>
+        <p class="sm:text-2xl md:text-3xl">Positive Feedback</p>
       </div>
     </div>
     <!-- Services -->
     <div class="relative w-full pt-12">
-      <div class="w-95 flex flex-col mx-auto">
-        <div class="flex justify-between">
-          <div>
-            <p>Services</p>
-            <h2>Our Services</h2>
-          </div>
-          <div class="content-center justify-end">
-            <button class="rounded-full border-white border-[1px] py-4 px-12">View All Services</button>
+      <div class="relative w-full pt-12">
+        <div class="w-95 mx-auto">
+          <div class="flex justify-between"></div>
+          <div class="flex flex-col md:flex-row pt-14 gap-5">
+            <h3 class="w-full md:w-40 text-40">Web and Digital<br />Experience Design</h3>
+            <div class="w-full md:w-60">
+              <h3 class="text-30 md:text-40">
+                Specialized website and digital user experience solutions for crafting intuitive, audience focused
+                interfaces that boost interaction and fulfill your online objectives.
+              </h3>
+              <div class="flex flex-col md:flex-row lg:flex-row gap-3 pt-6">
+                <p class="sm:w-full md:w-1/2">
+                  At our esteemed web development company, trust is paramount and we earn it through unwavering
+                  excellence and professionalism in every endeavor.
+                </p>
+                <p class="sm:w-full md:w-1/2">
+                  Our dedicated team specializes in delivering refined digital experiences, meticulously tailored to
+                  meet your unique requirements.
+                </p>
+              </div>
+              <div class="pt-10">
+                <ol class="list-decimal list-inside w-full md:w-1/2 text-white text-20 space-y-5">
+                  <li>Web Design & Development</li>
+                  <hr />
+                  <li>User Interface - User Experience Design (UI - UX)</li>
+                  <hr />
+                  <li>Front-End Development</li>
+                  <hr />
+                  <li>Back-End Development</li>
+                  <hr />
+                  <li>Search Engine Optimization (SEO)</li>
+                  <hr />
+                  <li>Mobile Application</li>
+                  <hr />
+                  <li>E-commerce Solutions</li>
+                  <hr />
+                  <li>Brand Identity</li>
+                  <hr />
+                  <li>Copywriting</li>
+                  <hr />
+                </ol>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      
-
-
-
     </div>
   </body>
 </html>
