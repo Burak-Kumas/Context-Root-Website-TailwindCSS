@@ -15,7 +15,7 @@
     <div class="relative flex justify-between w-95 mx-auto pt-6 items-center">
       <img class="sm:h-1/6 md:w-80 lg:w-80 dark:hidden" src="./assets/logo-white.svg" alt="context root logo" />
       <img class="sm:h-1/6 md:w-80 lg:w-80 hidden dark:block" src="./assets/Logo-dark.svg" alt="context root logo" />
-      <div class="stroke-primary-800">
+      <div class="text-primary-800s dark:text-secondary-300">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
           <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3.5 7.5h17M3.5 12h14m-14 4.5h17" />
         </svg>
@@ -32,8 +32,8 @@
     <!-- Video&Stats -->
     <div class="w-95 h-3200 relative mx-auto mt-20 flex">
       <!--Video-->
-      <div class="w-full sticky sm:h-[600px] lg:h-900 top-7">
-        <video class="w-full h-full object-cover rounded-3xl" autoplay loop muted>
+      <div class="w-full sticky sm:h-[600px] md:h-[600px] lg:h-900 top-7">
+        <video class="w-full lg:h-full sm:h-[600px] rounded-3xl object-cover" autoplay loop muted>
           <source src="./assets/video.mp4" type="video/mp4" />
         </video>
       </div>
@@ -59,7 +59,16 @@
       </div>
     </div>
     <!-- Services -->
-    <div class="relative w-full pt-28"></div>
-
+    <div class="relative w-full pt-28">
+      <div class="w-95 flex mx-auto">
+        <div>
+          <p>Services</p>
+          <h2>Our Services</h2>
+        </div>
+        <div class="content-center justify-end">
+          <button class="rounded-full border-white border-[1px] py-4 px-12">View All Services</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -21,14 +21,14 @@ export const theme = {
         500: "#683aff",
         600: "#5812ff",
         700: "#4801ff",
-        800: "#3b00d4",
+        800: "#3b00d4", // Main color
         900: "#3302b0",
       },
       secondary: {
         50: "#ecfeff",
         100: "#cefcff",
         200: "#a4f6fd",
-        300: "#43e8fa",
+        300: "#43e8fa", // Main color
         400: "#1fd9f1",
         500: "#03bcd7",
         600: "#0695b4",
